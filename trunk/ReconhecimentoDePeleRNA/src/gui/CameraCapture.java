@@ -41,7 +41,7 @@ public class CameraCapture {
 
         //displayImageWebcam();
         
-        ImageTransformer ite = new ImageTransformer(redeNeural);
+        ImageTransformer ite = new ImageTransformer(redeNeural,0);
        /* while (true) {
             image = webcam.getImage();
 
